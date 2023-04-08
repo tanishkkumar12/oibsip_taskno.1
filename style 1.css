@@ -1,0 +1,92 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header {
+    background-image:url("scene 1.jpg");
+    height:745px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: aliceblue;
+    color: black;
+}
+.logo img{
+    margin-top: 25px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.center_text{
+    text-size-adjust: 100px;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: bisque;;
+}
+h2{
+    margin-left: 5px;
+    margin-block-start: 5px;
+    font-size: 30px;
+    color:rgb(240, 255, 255);
+    text-align: center;
+}
+#bt1{
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-decoration: wavy;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+#bt2{
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-decoration: wavy;
+}
+#bt1:hover{
+    text-align: center;
+    background-color: aliceblue;
+    color:black;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    text-align: center;
+    background-color: aliceblue;
+    color:black;
+    transition: 0.6s ease;
+}
